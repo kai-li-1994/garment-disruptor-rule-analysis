@@ -1,0 +1,7 @@
+﻿setting,level,n_hardware,n_material_specified,share_material_specified,n_material_unspecified_or_ambiguous,share_material_unspecified_or_ambiguous
+conservative,garment_variant,10211,851,0.08334149446675154,9360,0.9166585055332485
+conservative,evidence_match,11836,851,0.0718992903007773,10985,0.9281007096992228
+default,garment_variant,12922,851,0.06585667853273487,12071,0.9341433214672651
+default,evidence_match,16319,851,0.05214780317421411,15468,0.9478521968257859
+expanded,garment_variant,20140,851,0.04225422045680238,19289,0.9577457795431976
+expanded,evidence_match,24179,851,0.03519583109309732,23328,0.9648041689069027

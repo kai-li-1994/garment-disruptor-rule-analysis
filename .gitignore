@@ -1,0 +1,36 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor settings
+.vscode/
+.idea/
+.spyproject/
+.spyderproject/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Manuscript drafts and local notes
+*.docx
+*.doc
+*.odt
+
+# Optional large input dataset; archived separately with the dataset release
+6_JSONL_component_normalized.jsonl
+
+# Generated figure folder, if regenerated locally but not intended for this repository
+figures/
