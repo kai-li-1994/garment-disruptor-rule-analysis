@@ -31,13 +31,18 @@ The workflow applies rule-based disruptor indicators to a component-normalized g
 
 ## Input dataset
 
+This workflow uses the component-normalized garment-variant dataset developed in the companion dataset repository:
+
+- Dataset repository: https://github.com/kai-li-1994/garment-variant-dataset
+- Archived dataset release: https://doi.org/10.5281/zenodo.20006389
+
 The rule-evaluation script expects the following input file in the working directory:
 
 ```text
 6_JSONL_component_normalized.jsonl
 ```
 
-This file is the final component-normalized garment-variant dataset from the associated dataset archive. It is not necessarily stored in this repository because it belongs to the dataset-construction release and may be archived separately on Zenodo. To rerun the analysis, download or copy `6_JSONL_component_normalized.jsonl` into the same directory from which you run `scripts/01_evaluate_disruptor_rules.py`, or update the `input_file` path inside the script.
+This file is not duplicated in this analysis repository because it belongs to the dataset-construction release. To rerun the analysis, download or copy `6_JSONL_component_normalized.jsonl` from the companion dataset release into the same directory from which you run `scripts/01_evaluate_disruptor_rules.py`, or update the `input_file` path inside the script.
 
 ## Scripts
 
@@ -48,7 +53,7 @@ This file is the final component-normalized garment-variant dataset from the ass
 
 ## Output files and their role
 
-| Output file | What it contains | Why it is included |
+| File | Contents | Use in the analysis |
 |---|---|---|
 | `outputs/disruptor_rule_flags_by_variant.csv` | Row-level rule flags for each colour-specific garment variant, including R1–R8 core disruptor indicators, R7b/R8b mismatch diagnostics, aggregate removable/retained/overall flags, garment metadata, and selected surface-reference information. | Provides the most complete reproducibility layer. Readers can trace which variants were flagged by each rule and recompute all aggregate shares from the row-level output. |
 | `outputs/disruptor_rule_summary.csv` | Rule-level summary statistics for each rule and setting, including total rows, flagged counts, non-flagged counts, and shares. | Supports the manuscript percentages for individual rules and aggregate indicators, including the default, conservative, and expanded settings. |
@@ -110,9 +115,28 @@ The outputs identify **observable disruptor indicators** from retailer web data.
 - R7b and R8b are diagnostic mismatch indicators and are reported separately from the core R7/R8 presence indicators.
 - Match-evidence and diagnostic tables are intended for audit and reproducibility; they may include multiple evidence records per garment variant.
 
+## Data and code availability
+
+The companion garment-variant dataset and dataset-construction workflow are archived separately:
+
+- GitHub: https://github.com/kai-li-1994/garment-variant-dataset
+- Zenodo: https://doi.org/10.5281/zenodo.20006389
+
+This repository archives the disruptor-rule evaluation workflow and derived output tables used for the manuscript. The output files provide the full tabular basis for the reported percentages, top-trigger rankings, category rankings, material-mismatch diagnostics, and audit checks.
+
 ## Citation
 
 If using these scripts or derived output tables, please cite the associated manuscript and the archived repository release. Citation metadata is provided in `CITATION.cff`.
+
+Please also cite the companion dataset release when using the input garment-variant dataset:
+
+Li, K., & Walther, G. (2026). *Harmonized garment-variant dataset for textile sorting and fibre-to-fibre recycling analysis* [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.20006389
+
+## Acknowledgements
+
+This research was supported by the Werner Siemens Foundation through the WSS Research Centre Catalaix, a Project of the Century funded by the Werner Siemens Foundation.
+
+The dataset and analysis workflow were prepared by [Dr. Kai Li](https://www.om.rwth-aachen.de/gruppenleitung/kai-li/) and [Prof. Grit Walther](https://www.om.rwth-aachen.de/lehrstuhlleitung/prof-dr-grit-walther/?setlang=en) at the Chair of Operations Management, RWTH Aachen Universityy.
 
 ## License
 
