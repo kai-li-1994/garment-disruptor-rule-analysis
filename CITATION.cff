@@ -1,35 +1,13 @@
-cff-version: 1.2.0
-title: "Disruptor rule evaluation and figure-generation workflow for garment preprocessing analysis"
-message: "If you use this analysis workflow, please cite it using the metadata from this file."
-type: software
+cff-version: 1.1.0
+message: "If you use this software or the derived output tables, please cite this repository and the associated manuscript."
 authors:
   - family-names: Li
     given-names: Kai
-    orcid: "https://orcid.org/0000-0002-9400-932X"
+    orcid: https://orcid.org/0000-0002-9400-932X
   - family-names: Walther
     given-names: Grit
-year: 2026
+title: "Garment disruptor rule analysis workflow"
+version: v1.0.2
+date-released: 2026-05-05
+repository-code: https://github.com/kai-li-1994/garment-disruptor-rule-analysis
 license: MIT
-repository-code: "https://github.com/kai-li-1994/garment-disruptor-rule-analysis"
-abstract: >
-  Python workflow for applying rule-based garment disruptor indicators to a
-  component-normalized garment-variant dataset and generating derived tabular
-  outputs for analysis of textile sorting and fibre-to-fibre recycling barriers.
-keywords:
-  - textile recycling
-  - garment preprocessing
-  - fibre-to-fibre recycling
-  - disruptor indicators
-  - circular textiles
-  - retailer web data
-preferred-citation:
-  type: article
-  title: "Garment construction creates overlooked barriers to textile sorting and fibre-to-fibre recycling in fast fashion"
-  authors:
-    - family-names: Li
-      given-names: Kai
-      orcid: "https://orcid.org/0000-0002-9400-932X"
-    - family-names: Walther
-      given-names: Grit
-  year: 2026
-  journal: "Manuscript in preparation"
