@@ -13,7 +13,6 @@ The workflow applies rule-based disruptor indicators to a component-normalized g
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-├── CITATION.cff
 ├── scripts/
 │   ├── 01_evaluate_disruptor_rules.py
 │   └── 02_generate_figures.py
