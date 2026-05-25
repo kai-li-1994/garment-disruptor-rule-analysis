@@ -2,7 +2,7 @@
 
 This repository contains the Python workflow and derived audit tables for the disruptor-rule analysis reported in the manuscript:
 
-> **Garment construction creates overlooked barriers to textile sorting and fibre-to-fibre recycling in fast fashion**
+> **Embedded garment features limit textile sorting and fibre-to-fibre recycling in fast fashion**
 
 The workflow applies rule-based disruptor indicators to a component-normalized garment-variant dataset and produces row-level flags, summary statistics, match evidence, diagnostic rankings, and regex audit files. The analysis is designed to make the manuscript results reproducible and auditable without requiring readers to inspect the full manuscript working folder.
 
