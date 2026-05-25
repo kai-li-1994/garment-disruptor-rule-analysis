@@ -1,6 +1,6 @@
 # Garment disruptor rule analysis
 
-[![Analysis DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Analysis DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20037099.svg)](https://doi.org/10.5281/zenodo.20037099)
 [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20006389.svg)](https://doi.org/10.5281/zenodo.20006389)
 
 This repository contains the Python workflow and derived audit tables for the disruptor-rule analysis reported in the manuscript:
