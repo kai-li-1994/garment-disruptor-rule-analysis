@@ -1,0 +1,5 @@
+portal,brand,region,product_key_rule,n_product_families,n_families_with_multiple_product_names_within_portal,n_families_with_multiple_detail_categories_within_portal,share_families_single_name_percent,share_families_single_category_percent
+H&M Australia,hm,au,First seven digits of ten-digit H&M article ID,7285,0,0,100.0,100.0
+H&M Great Britain,hm,gb,First seven digits of ten-digit H&M article ID,14797,0,0,100.0,100.0
+Uniqlo Australia,uniqlo,au,Full Uniqlo URL product-page identifier (E######-###),1016,0,0,100.0,100.0
+Uniqlo UK,uniqlo,uk,Full Uniqlo URL product-page identifier (E######-###),1386,0,0,100.0,100.0

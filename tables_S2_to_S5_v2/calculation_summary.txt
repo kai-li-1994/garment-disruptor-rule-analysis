@@ -1,0 +1,47 @@
+COMPLEMENTARY PREVALENCE ANALYSIS SUMMARY
+============================================
+
+Analytical structure
+--------------------
+1. Primary: pooled colour-variant prevalence.
+2. Complementary source boundary: portal-specific colour-variant prevalence.
+3. Complementary analytical unit: distinct-product prevalence using an any-variant criterion.
+4. Sensitivity axis: conservative/default/expanded rule boundaries.
+
+Sample structure
+----------------
+Colour-specific variants: 47,522
+Distinct retailer-specific product families: 19,173
+Products with more than one observed colour/regional variant: 10,466 (54.6%)
+Distinct product families appearing in both regional portals: 5,311 (27.7%)
+
+Headline aggregate prevalence (%)
+---------------------------------
+Any removable-hardware indicator (R1–R3)
+  Pooled variants (conservative/default/expanded): 21.5 / 27.2 / 42.4
+  Distinct products, >=1 flagged variant: 24.6 / 31.1 / 48.8
+Any retained-barrier indicator (R4–R8)
+  Pooled variants (conservative/default/expanded): 39.9 / 44.9 / 52.5
+  Distinct products, >=1 flagged variant: 43.5 / 48.3 / 56.9
+Any core disruptor indicator (R1–R8)
+  Pooled variants (conservative/default/expanded): 48.9 / 55.1 / 69.6
+  Distinct products, >=1 flagged variant: 52.8 / 58.9 / 74.9
+
+Portal-specific default overall prevalence
+------------------------------------------
+H&M Australia: 56.4%
+H&M Great Britain: 55.1%
+Uniqlo Australia: 50.9%
+Uniqlo UK: 53.3%
+
+Within-product agreement
+------------------------
+Any removable-hardware indicator (R1–R3): 78 products have mixed variant status (0.41% of all distinct products; 0.75% of products with multiple observed variants).
+Any retained-barrier indicator (R4–R8): 265 products have mixed variant status (1.38% of all distinct products; 2.53% of products with multiple observed variants).
+Any core disruptor indicator (R1–R8): 161 products have mixed variant status (0.84% of all distinct products; 1.54% of products with multiple observed variants).
+
+Auditing interpretation
+----------------------
+The default overall estimate is 55.09% at the pooled variant level and 58.94% at the distinct-product any-variant level.
+These values answer different questions and should be reported as complementary prevalence estimates, not as competing estimates of one identical population parameter.
+Portal-specific estimates show the result within each retailer–market source. They do not establish representativeness beyond the four observed portals.

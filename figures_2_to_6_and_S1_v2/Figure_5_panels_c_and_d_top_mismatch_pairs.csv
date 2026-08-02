@@ -1,0 +1,21 @@
+label,n,pct,panel,diagnostic
+"Shell: elastane + nylon
+↔ Lining: polyester",574,0.148014440433213,c,R7b
+"Shell: elastane + nylon
+↔ Lining: cotton",446,0.11500773594636411,c,R7b
+"Shell: cotton
+↔ Lining: polyester",250,0.06446621970087674,c,R7b
+"Shell: nylon
+↔ Lining: polyester",137,0.03532748839608046,c,R7b
+"Coating: polyurethane
+↔ Lining: polyester",123,0.03171738009283136,c,R7b
+"Shell: cotton
+↔ Pocket Lining: polyester",555,0.19835596854896353,d,R8b
+"Shell: cotton + elastane
+↔ Pocket Lining: polyester",169,0.06040028591851322,d,R8b
+"Body: cotton + elastane
+↔ Pocket Lining: polyester",146,0.05218012866333095,d,R8b
+"Body: cotton
+↔ Pocket Lining: polyester",123,0.043959971408148675,d,R8b
+"Shell: linen + viscose
+↔ Pocket Lining: polyester",121,0.04324517512508935,d,R8b

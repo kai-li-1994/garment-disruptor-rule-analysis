@@ -1,0 +1,6 @@
+check,passed,observed,expected
+input_variant_count,True,47522,47522
+r7_strict_conditional_rounds_to_34_8,True,34.76190476190476,34.8
+r7b_outside_r7_equals_82,True,82,82
+r8b_nested_in_r8,True,0,0
+category_display_labels_complete,True,[],[]

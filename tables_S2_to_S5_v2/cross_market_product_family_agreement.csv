@@ -1,0 +1,40 @@
+metric,metric_label,setting,setting_label,n_cross_market_products,n_same_status_across_regions,n_different_status_across_regions,agreement_share,agreement_percent
+any_removable_disruptor,Any removable-hardware indicator (R1–R3),conservative,Conservative,5311,5296,15,0.997175673131237,99.7175673131237
+any_removable_disruptor,Any removable-hardware indicator (R1–R3),default,Default,5311,5238,73,0.9862549425720203,98.62549425720204
+any_removable_disruptor,Any removable-hardware indicator (R1–R3),expanded,Expanded,5311,5269,42,0.9920918847674638,99.20918847674638
+any_retained_barrier,Any retained-barrier indicator (R4–R8),conservative,Conservative,5311,5225,86,0.9838071926190924,98.38071926190925
+any_retained_barrier,Any retained-barrier indicator (R4–R8),default,Default,5311,5224,87,0.9836189041611749,98.36189041611749
+any_retained_barrier,Any retained-barrier indicator (R4–R8),expanded,Expanded,5311,4987,324,0.9389945396347203,93.89945396347204
+any_disruptor_overall,Any core disruptor indicator (R1–R8),conservative,Conservative,5311,5243,68,0.987196384861608,98.7196384861608
+any_disruptor_overall,Any core disruptor indicator (R1–R8),default,Default,5311,5233,78,0.9853135002824327,98.53135002824327
+any_disruptor_overall,Any core disruptor indicator (R1–R8),expanded,Expanded,5311,5064,247,0.9534927508943701,95.34927508943701
+r1_metal_hardware,R1 Metal-specified/conventional hardware,conservative,Conservative,5311,5300,11,0.9979288269629072,99.79288269629072
+r1_metal_hardware,R1 Metal-specified/conventional hardware,default,Default,5311,5294,17,0.996799096215402,99.67990962154019
+r1_metal_hardware,R1 Metal-specified/conventional hardware,expanded,Expanded,5311,5294,17,0.996799096215402,99.67990962154019
+r2_plastic_hardware,R2 Plastic-specified hardware,conservative,Conservative,5311,5307,4,0.9992468461683299,99.92468461683299
+r2_plastic_hardware,R2 Plastic-specified hardware,default,Default,5311,5307,4,0.9992468461683299,99.92468461683299
+r2_plastic_hardware,R2 Plastic-specified hardware,expanded,Expanded,5311,5307,4,0.9992468461683299,99.92468461683299
+r3_mixed_hardware,R3 Material-ambiguous hardware,conservative,Conservative,5311,5305,6,0.9988702692524948,99.88702692524947
+r3_mixed_hardware,R3 Material-ambiguous hardware,default,Default,5311,5148,163,0.9693089813594427,96.93089813594426
+r3_mixed_hardware,R3 Material-ambiguous hardware,expanded,Expanded,5311,5177,134,0.974769346639051,97.4769346639051
+r4_fabric_attached_trim,R4 Fabric attached trim,conservative,Conservative,5311,5281,30,0.9943513462624741,99.43513462624742
+r4_fabric_attached_trim,R4 Fabric attached trim,default,Default,5311,5259,52,0.9902090001882885,99.02090001882885
+r4_fabric_attached_trim,R4 Fabric attached trim,expanded,Expanded,5311,4897,414,0.9220485784221427,92.20485784221427
+r5_decorative_nontextile,R5 Decorative/non-textile attachment,conservative,Conservative,5311,5311,0,1.0,100.0
+r5_decorative_nontextile,R5 Decorative/non-textile attachment,default,Default,5311,5301,10,0.9981171154208247,99.81171154208248
+r5_decorative_nontextile,R5 Decorative/non-textile attachment,expanded,Expanded,5311,5301,10,0.9981171154208247,99.81171154208248
+r6_surface_print_coating,R6 Surface print/coating barrier,conservative,Conservative,5311,5308,3,0.9994351346262474,99.94351346262475
+r6_surface_print_coating,R6 Surface print/coating barrier,default,Default,5311,5307,4,0.9992468461683299,99.92468461683299
+r6_surface_print_coating,R6 Surface print/coating barrier,expanded,Expanded,5311,5305,6,0.9988702692524948,99.88702692524947
+r7_lining_multilayer,R7 Lining/multilayer presence,conservative,Conservative,5311,5253,58,0.9890792694407833,98.90792694407833
+r7_lining_multilayer,R7 Lining/multilayer presence,default,Default,5311,5271,40,0.9924684616832988,99.24684616832988
+r7_lining_multilayer,R7 Lining/multilayer presence,expanded,Expanded,5311,5268,43,0.9919035963095463,99.19035963095463
+r7b_hidden_layer_mismatch,R7b Hidden-layer mismatch diagnostic,conservative,Conservative,5311,5266,45,0.9915270193937111,99.15270193937111
+r7b_hidden_layer_mismatch,R7b Hidden-layer mismatch diagnostic,default,Default,5311,5271,40,0.9924684616832988,99.24684616832988
+r7b_hidden_layer_mismatch,R7b Hidden-layer mismatch diagnostic,expanded,Expanded,5311,5271,40,0.9924684616832988,99.24684616832988
+r8_secondary_component_presence,R8 Secondary-component presence,conservative,Conservative,5311,5255,56,0.9894558463566183,98.94558463566183
+r8_secondary_component_presence,R8 Secondary-component presence,default,Default,5311,5255,56,0.9894558463566183,98.94558463566183
+r8_secondary_component_presence,R8 Secondary-component presence,expanded,Expanded,5311,5254,57,0.9892675578987008,98.92675578987009
+r8b_secondary_material_difference,R8b Secondary-component mismatch diagnostic,conservative,Conservative,5311,5261,50,0.9905855771041235,99.05855771041236
+r8b_secondary_material_difference,R8b Secondary-component mismatch diagnostic,default,Default,5311,5266,45,0.9915270193937111,99.15270193937111
+r8b_secondary_material_difference,R8b Secondary-component mismatch diagnostic,expanded,Expanded,5311,5266,45,0.9915270193937111,99.15270193937111

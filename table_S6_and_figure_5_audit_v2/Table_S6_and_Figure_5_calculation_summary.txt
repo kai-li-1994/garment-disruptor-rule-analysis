@@ -1,0 +1,13 @@
+Input variants: 47,522
+
+R6 technical-outerwear rule-boundary sensitivity (%):
+                    Category  Variants (n)  Conservative  Default  Expanded
+Technical outerwear combined          4178          10.5     19.7      21.0
+             Outerwear coats           638          25.5     42.6      42.6
+           Outerwear jackets          2978           7.8     16.1      17.3
+            Outerwear gilets           562           8.2     12.8      16.0
+
+Mismatch nesting audit:
+diagnostic_pair  n_presence  n_mismatch_total  n_mismatch_within_presence  n_mismatch_outside_presence  total_diagnostic_cases_divided_by_presence_percent  strict_conditional_mismatch_percent
+         R7/R7b       10920              3878                        3796                           82                                               35.51                                34.76
+         R8/R8b        5124              2798                        2798                            0                                               54.61                                54.61

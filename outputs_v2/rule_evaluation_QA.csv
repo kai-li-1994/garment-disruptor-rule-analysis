@@ -1,0 +1,4 @@
+check,passed,observed,expected
+nonempty_input,True,47522,> 0
+required_default_output_columns,True,"['any_disruptor_overall_default', 'any_removable_disruptor_default', 'any_retained_barrier_default', 'r7b_hidden_layer_mismatch_default', 'r8b_secondary_material_difference_default']","['any_disruptor_overall_default', 'any_removable_disruptor_default', 'any_retained_barrier_default', 'r7b_hidden_layer_mismatch_default', 'r8b_secondary_material_difference_default']"
+row_ids_unique,True,47522,47522

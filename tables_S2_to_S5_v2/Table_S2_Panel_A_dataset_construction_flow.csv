@@ -1,0 +1,6 @@
+Dataset stage,Records (n),Role in construction
+Raw scraped product-page records,47834,Starting product-page records
+After minimum-information filtering,47570,Removed records lacking required material or colour information
+After colour-variant expansion and harmonization,51994,Expanded Uniqlo records and harmonized retailer schemas
+After category normalization and scope filtering,48244,"Removed accessories, footwear, and unresolved categories"
+Final analytical dataset,47522,After component normalization and consistency filtering

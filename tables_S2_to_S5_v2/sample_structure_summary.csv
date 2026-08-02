@@ -1,0 +1,7 @@
+boundary_type,boundary,n_colour_variants,n_product_units,n_products_with_multiple_variants,share_products_with_multiple_variants,mean_variants_per_product,median_variants_per_product,p90_variants_per_product,max_variants_per_product,share_products_with_multiple_variants_percent
+Pooled cross-market product-family boundary,All portals pooled: distinct products,47522,19173,10466,0.5458717988838471,2.4785896834089605,2.0,5.0,70,54.58717988838471
+Pooled portal-specific product-family boundary,All portals pooled: product-market units,47522,24484,10811,0.441553667701356,1.9409410227087078,1.0,4.0,39,44.1553667701356
+Retailer-market portal,H&M Australia,14238,7285,3206,0.44008236101578585,1.9544269045984901,1.0,4.0,34,44.00823610157858
+Retailer-market portal,H&M Great Britain,26839,14797,6047,0.4086639183618301,1.8138136108670677,1.0,3.0,39,40.866391836183006
+Retailer-market portal,Uniqlo Australia,2825,1016,697,0.6860236220472441,2.780511811023622,2.0,5.5,32,68.60236220472441
+Retailer-market portal,Uniqlo UK,3620,1386,861,0.6212121212121212,2.611832611832612,2.0,5.0,13,62.121212121212125

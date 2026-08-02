@@ -1,0 +1,4 @@
+rule,n,label,share
+R1,5902,R1 metal-specified,0.3616643176665237
+R2,138,R2 plastic-specified,0.008456400514737422
+R3,10279,R3 material-ambiguous,0.6298792818187389

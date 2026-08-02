@@ -1,0 +1,3 @@
+diagnostic_pair,n_presence,n_mismatch_total,n_mismatch_within_presence,n_mismatch_outside_presence,total_diagnostic_cases_divided_by_presence_percent,strict_conditional_mismatch_percent
+R7/R7b,10920,3878,3796,82,35.51282051282051,34.76190476190476
+R8/R8b,5124,2798,2798,0,54.605776736924284,54.605776736924284

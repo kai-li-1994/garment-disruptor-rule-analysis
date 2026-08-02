@@ -1,0 +1,11 @@
+file,description
+disruptor_rule_flags_by_variant.csv,Row-level indicator and aggregate flags
+disruptor_rule_summary.csv,Rule-level prevalence summary
+disruptor_aggregate_summary.csv,"Removable-hardware, retained-barrier, and overall core-disruptor aggregate prevalence"
+disruptor_match_evidence.csv,Matched evidence supporting rule assignments
+disruptor_trigger_diagnostics.csv,Trigger-term diagnostics
+disruptor_category_diagnostics.csv,Category-level diagnostics
+disruptor_regex_inventory.csv,Executed regex inventory
+hardware_material_disclosure_summary.csv,Hardware material-disclosure diagnostic
+disruptor_summary_readable.txt,Human-readable calculation summary
+rule_evaluation_QA.csv,Core rule-evaluation QA checks

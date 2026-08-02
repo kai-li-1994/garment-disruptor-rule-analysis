@@ -1,0 +1,8 @@
+check,passed,observed,expected
+input_row_count,True,47522.0,47522.0
+technical_outerwear_variant_count,True,4178.0,4178.0
+technical_outerwear_R6_default_rounds_to_19_7,True,19.698420296792722,19.7
+r7b_outside_r7,True,82.0,82.0
+r7_strict_conditional_rounds_to_34_8,True,34.76190476190476,34.8
+r8b_nested_in_r8,True,0.0,0.0
+r8_strict_conditional_rounds_to_54_6,True,54.605776736924284,54.6

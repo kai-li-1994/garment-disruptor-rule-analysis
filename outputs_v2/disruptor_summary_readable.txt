@@ -1,0 +1,72 @@
+Disruptor rule evaluation summary (surface/hidden logic and cue-based R1-R3 hardware boundaries)
+
+Input file: C:\Users\laptop-kl\OneDrive - Universiteit Leiden\PlasticTradeFlow\data_mining_clothing\textile_preprocessing\waste_management\1st_revision\6_JSONL_component_normalized.jsonl
+Processed rows: 47522
+
+R1–R3 removable-hardware indicator note
+============================================================
+R1–R3 are cue-based removable-hardware indicators, not verified material-composition classes.
+R1 = metal-specified / strongly metal-conventional hardware cues; R2 = plastic-specified hardware cues; R3 = material-ambiguous hardware cues. R3 is not derived from R1 + R2 co-occurrence.
+
+Hardware material-disclosure diagnostic
+============================================================
+conservative | garment_variant | n_hardware=10211 | material_specified=851 (0.083341) | unspecified_or_ambiguous=9360 (0.916659)
+conservative | evidence_match | n_hardware=11836 | material_specified=851 (0.071899) | unspecified_or_ambiguous=10985 (0.928101)
+default | garment_variant | n_hardware=12922 | material_specified=851 (0.065857) | unspecified_or_ambiguous=12071 (0.934143)
+default | evidence_match | n_hardware=16319 | material_specified=851 (0.052148) | unspecified_or_ambiguous=15468 (0.947852)
+expanded | garment_variant | n_hardware=20140 | material_specified=851 (0.042254) | unspecified_or_ambiguous=19289 (0.957746)
+expanded | evidence_match | n_hardware=24179 | material_specified=851 (0.035196) | unspecified_or_ambiguous=23328 (0.964804)
+
+Brand counts
+============================================================
+hm: 41077
+uniqlo: 6445
+
+Parent category counts
+============================================================
+bottoms: 12076
+overall: 7664
+tops: 22051
+underwear: 5731
+
+Rule / aggregate shares
+============================================================
+any_disruptor_overall_conservative | n_flagged=23246 | share_flagged=0.489163
+any_disruptor_overall_default | n_flagged=26182 | share_flagged=0.550945
+any_disruptor_overall_expanded | n_flagged=33053 | share_flagged=0.695530
+any_removable_disruptor_conservative | n_flagged=10211 | share_flagged=0.214869
+any_removable_disruptor_default | n_flagged=12922 | share_flagged=0.271916
+any_removable_disruptor_expanded | n_flagged=20140 | share_flagged=0.423804
+any_retained_barrier_conservative | n_flagged=18943 | share_flagged=0.398615
+any_retained_barrier_default | n_flagged=21356 | share_flagged=0.449392
+any_retained_barrier_expanded | n_flagged=24968 | share_flagged=0.525399
+r1_metal_hardware_conservative | n_flagged=2613 | share_flagged=0.054985
+r1_metal_hardware_default | n_flagged=5902 | share_flagged=0.124195
+r1_metal_hardware_expanded | n_flagged=5938 | share_flagged=0.124953
+r2_plastic_hardware_conservative | n_flagged=138 | share_flagged=0.002904
+r2_plastic_hardware_default | n_flagged=138 | share_flagged=0.002904
+r2_plastic_hardware_expanded | n_flagged=138 | share_flagged=0.002904
+r3_mixed_hardware_conservative | n_flagged=9085 | share_flagged=0.191175
+r3_mixed_hardware_default | n_flagged=10279 | share_flagged=0.216300
+r3_mixed_hardware_expanded | n_flagged=18103 | share_flagged=0.380939
+r4_fabric_attached_trim_conservative | n_flagged=8180 | share_flagged=0.172131
+r4_fabric_attached_trim_default | n_flagged=9442 | share_flagged=0.198687
+r4_fabric_attached_trim_expanded | n_flagged=14396 | share_flagged=0.302933
+r5_decorative_nontextile_conservative | n_flagged=548 | share_flagged=0.011532
+r5_decorative_nontextile_default | n_flagged=945 | share_flagged=0.019886
+r5_decorative_nontextile_expanded | n_flagged=945 | share_flagged=0.019886
+r6_surface_print_coating_conservative | n_flagged=944 | share_flagged=0.019864
+r6_surface_print_coating_default | n_flagged=1468 | share_flagged=0.030891
+r6_surface_print_coating_expanded | n_flagged=2006 | share_flagged=0.042212
+r7_lining_multilayer_conservative | n_flagged=8976 | share_flagged=0.188881
+r7_lining_multilayer_default | n_flagged=10920 | share_flagged=0.229788
+r7_lining_multilayer_expanded | n_flagged=11605 | share_flagged=0.244203
+r7b_hidden_layer_mismatch_conservative | n_flagged=4090 | share_flagged=0.086065
+r7b_hidden_layer_mismatch_default | n_flagged=3878 | share_flagged=0.081604
+r7b_hidden_layer_mismatch_expanded | n_flagged=3878 | share_flagged=0.081604
+r8_secondary_component_presence_conservative | n_flagged=5124 | share_flagged=0.107824
+r8_secondary_component_presence_default | n_flagged=5124 | share_flagged=0.107824
+r8_secondary_component_presence_expanded | n_flagged=5535 | share_flagged=0.116472
+r8b_secondary_material_difference_conservative | n_flagged=2904 | share_flagged=0.061109
+r8b_secondary_material_difference_default | n_flagged=2798 | share_flagged=0.058878
+r8b_secondary_material_difference_expanded | n_flagged=2798 | share_flagged=0.058878

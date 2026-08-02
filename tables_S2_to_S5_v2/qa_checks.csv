@@ -1,0 +1,11 @@
+check,passed,observed,expected,detail
+variant_row_count,True,47522,47522,Primary analytical dataset size.
+distinct_product_count,True,19173,19173,One row per retailer-specific product family.
+product_family_key_internal_consistency,True,True,True,"Within each portal, every derived product-family key maps to one product name and one detail category."
+portal_denominators_sum_to_pooled,True,47522,47522,The four portal strata partition the pooled variant dataset.
+pooled_results_match_rule_summary,True,9.020562075079397e-17,< 1e-12,Missing metrics: none
+product_any_variant_aggregation,True,keys_equal=True; mismatched_flag_cells=0,keys_equal=True; mismatched_flag_cells=0,Normalized-value comparison confirms that groupby.max() and groupby.any() produce the same product-level binary flags; harmless pandas dtype differences are ignored.
+complete_prevalence_matrix,True,234,234,Six analytical boundaries x thirteen outcomes x three settings.
+no_missing_prevalence_values,True,True,True,All calculation cells are populated.
+supplementary_table_dimensions,True,"{'S2A': 5, 'S2B': 5, 'S3': 6, 'S4': 10, 'S5': 39}","{'S2A': 5, 'S2B': 5, 'S3': 6, 'S4': 10, 'S5': 39}",Expected publication-facing table row counts.
+table_S2_panel_A_final_count_matches_input,True,47522,47522,The final dataset-construction count matches the row-level analysis input.

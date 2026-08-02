@@ -1,0 +1,4 @@
+brand,n_distinct_products,n_products_in_both_regions,share_products_in_both_regions,share_products_in_both_regions_percent
+All brands,19173,5311,0.27700412037761435,27.700412037761435
+hm,17370,4712,0.27127230857800805,27.127230857800804
+uniqlo,1803,599,0.3322240709927898,33.222407099278975
